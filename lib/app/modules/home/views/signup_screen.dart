@@ -38,14 +38,7 @@ class InitState extends State<SignUpScreen> {
                   width: 90,
                 ),
               ),
-              Container(
-                margin: EdgeInsets.only(right: 20, top: 20),
-                alignment: Alignment.bottomRight,
-                child: Text(
-                  "Register",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
-                ),
-              )
+             
             ],
           )),
         ),
@@ -169,7 +162,7 @@ class InitState extends State<SignUpScreen> {
           },
           child: Container(
             alignment: Alignment.center,
-            margin: EdgeInsets.only(left: 20, right: 20, top: 70),
+            margin: EdgeInsets.only(left: 20, right: 20, top: 30),
             padding: EdgeInsets.only(left: 20, right: 20),
             height: 54,
             decoration: BoxDecoration(

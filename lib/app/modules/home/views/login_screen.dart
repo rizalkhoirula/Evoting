@@ -20,7 +20,8 @@ class StartState extends State<LoginScreen> {
             child: Column(
       children: [
         Container(
-          height: 300,
+          width: 400,
+          height: 250,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.only(bottomLeft: Radius.circular(100)),
             color: new Color(0xffF5591F),
@@ -43,14 +44,7 @@ class StartState extends State<LoginScreen> {
                   width: 90,
                 ),
               ),
-              Container(
-                margin: EdgeInsets.only(right: 20, top: 20),
-                alignment: Alignment.bottomRight,
-                child: Text(
-                  "Login",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
-                ),
-              )
+              
             ],
           )),
         ),
@@ -127,7 +121,7 @@ class StartState extends State<LoginScreen> {
           },
           child: Container(
             alignment: Alignment.center,
-            margin: EdgeInsets.only(left: 20, right: 20, top: 70),
+            margin: EdgeInsets.only(left: 20, right: 20, top: 20),
             padding: EdgeInsets.only(left: 20, right: 20),
             height: 54,
             decoration: BoxDecoration(
